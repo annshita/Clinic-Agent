@@ -1,0 +1,28 @@
+{
+  "conversation_id": "cv_0005",
+  "tool_calls": [
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-04"
+      },
+      "result": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-04",
+        "slots": [],
+        "closed_reason": "no_window"
+      }
+    }
+  ],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "2026-10-04 ko Dr. Anjali Rao ke paas koi slot nahi hai (no_window). Kripya doosri tareekh bataiye.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2033
+  }
+}

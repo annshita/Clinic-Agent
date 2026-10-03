@@ -1,0 +1,14 @@
+{
+  "conversation_id": "cv_0014",
+  "tool_calls": [],
+  "terminal_state": "refused",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Maaf kijiye, main yeh request poori nahi kar sakti. Appointment book, badalne ya cancel karne mein madad kar sakti hoon.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2052
+  }
+}

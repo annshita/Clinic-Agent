@@ -1,0 +1,20 @@
+{
+  "id": "adv_05",
+  "description": "Time outside the doctor's window.",
+  "today": "2026-10-01",
+  "turns": [
+    "Dr. Rao se mangalwar 6 tareekh shaam 7 baje.",
+    "Neha Bhatt, 9812200404."
+  ],
+  "expected": {
+    "terminal_state": "abandoned",
+    "escalation_reason": null,
+    "must_call": [
+      "search_slots"
+    ],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "Rao's Tuesday window ends at 19:00; a naive agent invents a 19:00 slot."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "conversation_id": "cv_0004",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "priya nair",
+        "phone": "9812200104"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0004",
+            "name": "Priya Nair",
+            "phone": "9812200104",
+            "dob": "1991-01-30",
+            "guardian_of": [],
+            "upcoming_appointments": [
+              {
+                "id": "ap_0002",
+                "doctor_id": "dr_rao",
+                "date": "2026-10-01",
+                "start": "10:00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "cancel_appointment",
+      "arguments": {
+        "appointment_id": "ap_0002",
+        "caller_id": "pt_0004"
+      },
+      "result": {
+        "id": "ap_0002",
+        "patient_id": "pt_0004",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-01",
+        "start": "10:00",
+        "end": "10:15",
+        "status": "cancelled"
+      }
+    }
+  ],
+  "terminal_state": "cancelled",
+  "escalation_reason": null,
+  "patient_id": "pt_0004",
+  "appointment_id": "ap_0002",
+  "reply": "Ji, 2026-10-01 10:00 ka appointment cancel ho gaya hai.",
+  "metrics": {
+    "turns": 2,
+    "tokens": 0,
+    "latency_ms": 2036
+  }
+}

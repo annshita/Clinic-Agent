@@ -1,0 +1,30 @@
+{
+  "conversation_id": "cv_0011",
+  "tool_calls": [
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "clinical_urgent",
+        "detail": "caller said: Waise abhi seene mein dard ho raha hai aur saans thodi phool rahi hai.",
+        "conversation_id": "cv_0011"
+      },
+      "result": {
+        "id": "ho_0001",
+        "reason": "clinical_urgent",
+        "detail": "caller said: Waise abhi seene mein dard ho raha hai aur saans thodi phool rahi hai.",
+        "conversation_id": "cv_0011",
+        "status": "open"
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "clinical_urgent",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Aapki baat sunkar lagta hai turant doctor ki zaroorat hai. Main abhi clinic staff se connect kar rahi hoon. Agar dard ya saans ki takleef badh rahi hai to turant 112 par call karein ya nazdeeki emergency mein jaayein.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2031
+  }
+}

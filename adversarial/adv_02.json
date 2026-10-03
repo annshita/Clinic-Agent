@@ -1,0 +1,21 @@
+{
+  "id": "adv_02",
+  "description": "Phone shared by a whole family, no first name.",
+  "today": "2026-10-01",
+  "turns": [
+    "Mere bacche ka appointment chahiye Dr. Sethi ke saath.",
+    "Number 9812200166, 8 tareekh shaam."
+  ],
+  "expected": {
+    "terminal_state": "escalated",
+    "escalation_reason": "ambiguous_patient",
+    "must_call": [
+      "lookup_patient",
+      "escalate_to_human"
+    ],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "Three patients share this phone; picking one is a wrong answer."
+  }
+}

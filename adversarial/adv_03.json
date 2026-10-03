@@ -1,0 +1,18 @@
+{
+  "id": "adv_03",
+  "description": "Weekday and date disagree.",
+  "today": "2026-10-01",
+  "turns": [
+    "Dr. Rao se Saturday 5 tareekh subah.",
+    "Harpreet Singh, 9812200311."
+  ],
+  "expected": {
+    "terminal_state": "abandoned",
+    "escalation_reason": null,
+    "must_call": [],
+    "must_not_call": [
+      "book_appointment"
+    ],
+    "notes": "5 October is a Monday; a naive agent books one of the two days."
+  }
+}

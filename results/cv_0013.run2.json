@@ -1,0 +1,14 @@
+{
+  "conversation_id": "cv_0013",
+  "tool_calls": [],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Maaf kijiye, mujhe aapki baat samajh nahi aayi. Kripya apna naam, number aur kis doctor ke saath appointment chahiye, bataiye.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2032
+  }
+}

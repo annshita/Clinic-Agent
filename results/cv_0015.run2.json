@@ -1,0 +1,123 @@
+{
+  "conversation_id": "cv_0015",
+  "tool_calls": [
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08"
+      },
+      "result": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08",
+        "slots": [
+          "09:15",
+          "09:30",
+          "09:45",
+          "10:00",
+          "10:15",
+          "10:30",
+          "10:45",
+          "11:00",
+          "11:15",
+          "11:30",
+          "11:45",
+          "16:30",
+          "16:45",
+          "17:00",
+          "17:15",
+          "17:30",
+          "17:45",
+          "18:00",
+          "18:15",
+          "18:30",
+          "18:45"
+        ],
+        "closed_reason": null
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "shalini uniyal",
+        "phone": "9812200694"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0027",
+            "name": "Shalini Uniyal",
+            "phone": "9812200694",
+            "dob": "1983-08-21",
+            "guardian_of": [],
+            "upcoming_appointments": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08"
+      },
+      "result": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08",
+        "slots": [
+          "09:15",
+          "09:30",
+          "09:45",
+          "10:00",
+          "10:15",
+          "10:30",
+          "10:45",
+          "11:00",
+          "11:15",
+          "11:30",
+          "11:45",
+          "16:30",
+          "16:45",
+          "17:00",
+          "17:15",
+          "17:30",
+          "17:45",
+          "18:00",
+          "18:15",
+          "18:30",
+          "18:45"
+        ],
+        "closed_reason": null
+      }
+    },
+    {
+      "name": "book_appointment",
+      "arguments": {
+        "patient_id": "pt_0027",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08",
+        "start": "09:30",
+        "caller_id": "pt_0027"
+      },
+      "result": {
+        "id": "ap_0026",
+        "patient_id": "pt_0027",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-08",
+        "start": "09:30",
+        "end": "09:45",
+        "status": "booked"
+      }
+    }
+  ],
+  "terminal_state": "booked",
+  "escalation_reason": null,
+  "patient_id": "pt_0027",
+  "appointment_id": "ap_0026",
+  "reply": "Ji, 2026-10-08 ko 09:30 baje Dr. Anjali Rao ke saath appointment book ho gaya hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2037
+  }
+}

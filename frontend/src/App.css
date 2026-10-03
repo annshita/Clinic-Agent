@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6f8fb;
+  color: #1a2540
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh
+}
+
+nav {
+  width: 200px;
+  background: #fff;
+  border-right: 1px solid #dde3ee;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a2540;
+  padding: 6px 8px;
+  border-radius: 6px
+}
+
+nav a.active {
+  background: #e6edff
+}
+
+main {
+  flex: 1;
+  padding: 24px
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 16px 0
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dde3ee;
+  border-radius: 8px;
+  padding: 12px
+}
+
+.card small {
+  display: block;
+  color: #667
+}
+
+.card b {
+  font-size: 26px
+}
+
+.card i {
+  display: block;
+  color: #2a62d6;
+  font-size: 12px
+}
+
+table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eef
+}
+
+.pill {
+  font-size: 11px;
+  background: #2a62d6;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 10px;
+  margin-left: 8px
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: #fde8e8;
+  color: #b42318
+}
+
+.badge.not_authorised,
+.badge.out_of_scope {
+  background: #fff1d6;
+  color: #a15c00
+}
+
+.badge.ambiguous_patient {
+  background: #ffe9c7;
+  color: #a15c00
+}
+
+.badge.medical_advice {
+  background: #ffe3e3;
+  color: #b42318
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px
+}
+
+.bubble {
+  background: #fff;
+  border: 1px solid #dde3ee;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin: 6px 0
+}
+
+.bubble small {
+  color: #889;
+  margin-right: 8px
+}
+
+.tool {
+  background: #eaf1ff
+}
+
+.tool code {
+  display: block;
+  font-size: 12px
+}
+
+.alert {
+  background: #fde8e8;
+  color: #b42318;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 8px
+}
+
+.kv {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0
+}
+
+.muted {
+  color: #667
+}
+
+button {
+  cursor: pointer
+}

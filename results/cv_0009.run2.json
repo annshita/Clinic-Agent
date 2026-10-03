@@ -1,0 +1,81 @@
+{
+  "conversation_id": "cv_0009",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "mohit negi",
+        "phone": "9812200497"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0020",
+            "name": "Mohit Negi",
+            "phone": "9812200497",
+            "dob": "1998-09-29",
+            "guardian_of": [],
+            "upcoming_appointments": [
+              {
+                "id": "ap_0007",
+                "doctor_id": "dr_rao",
+                "date": "2026-10-03",
+                "start": "09:45"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "lakshmi iyer"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0012",
+            "name": "Lakshmi Iyer",
+            "phone": "9812200280",
+            "dob": "1968-05-11",
+            "guardian_of": [],
+            "upcoming_appointments": [
+              {
+                "id": "ap_0003",
+                "doctor_id": "dr_rao",
+                "date": "2026-10-01",
+                "start": "17:00"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "not_authorised",
+        "detail": "pt_0020 is not patient/guardian of ['pt_0012']",
+        "conversation_id": "cv_0009"
+      },
+      "result": {
+        "id": "ho_0001",
+        "reason": "not_authorised",
+        "detail": "pt_0020 is not patient/guardian of ['pt_0012']",
+        "conversation_id": "cv_0009",
+        "status": "open"
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "not_authorised",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Kisi aur ke record par badlav ke liye main authorised nahi hoon. Staff aapse baat karenge.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2020
+  }
+}
