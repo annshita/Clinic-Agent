@@ -1,0 +1,45 @@
+PROMPT 1 (attached: assignment brief PDF, clinic.json, README.md, runner.py, schema.md, cv_0001..cv_0015.json)
+Complete this assignment and create a zip file of the project that can be run locally. Also for deployment i can use streamlit and other free sites only so keep that in mind. A separate folder named conversations is already given i have attached few files for reference - cv_0001.json, cv_0002.json, the folder has total 15 files.
+Just give me the basic backbone code that you can generate in free version rest just add the instructions in chat, don't have to make evevrything at once
+
+PROMPT 2
+Okay i have tried and tested now tell me step by step how to integrate the remaining requirements
+
+PROMPT 3
+In the first step i ran the python3 -m pytest -q command and it says 18 passed now should i move to step 2. Please answer in short.
+
+PROMPT 4
+How do i create 8 json files
+
+PROMPT 5
+Ok now it shows 26 passed, can i move to next step?
+
+PROMPT 6
+Please tell me how to execute step 2, step by step with code
+
+PROMPT 7
+Explain step 4
+
+PROMPT 8
+[pasted VS Code notice] An environment file is configured but terminal environment injection is disabled. Enable "python.terminal.useEnvFile" to use environment variables from .env files in terminals.
+
+PROMPT 9
+I ran the frontend and backend but it's not showing any details
+
+PROMPT 10
+[pasted the JSON output of /stats and /handoffs] The two links show this
+
+PROMPT 11
+[pasted browser console errors: "Uncaught (in promise) SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON"]
+
+PROMPT 12
+when i resolve and try to refresh it only shows 3 requests is that how it should be?
+
+PROMPT 13
+Now tell me how to host
+
+PROMPT 14
+[shared my Render and Vercel links] The Render link shows {"detail":"Not Found"} and the Vercel link /c/cv_0011 is not showing anything
+
+PROMPT 15
+Okay now it's working similar to how it worked locally, now what are the deliverables?
