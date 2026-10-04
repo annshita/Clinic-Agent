@@ -9,6 +9,6 @@
   "metrics": {
     "turns": 3,
     "tokens": 0,
-    "latency_ms": 2016
+    "latency_ms": 2048
   }
 }
